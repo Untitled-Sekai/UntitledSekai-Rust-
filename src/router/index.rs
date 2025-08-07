@@ -9,4 +9,5 @@ pub fn sonolus_router() -> Router {
         .nest("/particles", crate::router::sonolus::particle::router())
         .nest("/engines", crate::router::sonolus::engine::router())
         .nest("/effects", crate::router::sonolus::effect::router())
+        .nest("/authenticate", crate::router::sonolus::auth::router())
 }

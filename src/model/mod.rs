@@ -9,6 +9,7 @@ pub mod list;
 pub mod search;
 pub mod tags;
 pub mod form;
+pub mod auth;
 
 // Item Model
 pub mod skin;
